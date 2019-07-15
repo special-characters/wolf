@@ -1,0 +1,5 @@
+run:
+  skip-files:
+    - words.go
+linters:
+  enable-all: true
