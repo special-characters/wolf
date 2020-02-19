@@ -22,7 +22,7 @@ func (l *Lexicon) Unwolf(wolf string) (string, error) {
 		}
 	}
 
-	return strings.TrimLeft(output, "0"), nil
+	return output, nil
 }
 
 func (l *Lexicon) Wolf(hex string) (string, error) {
